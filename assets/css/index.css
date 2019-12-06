@@ -158,6 +158,7 @@ h1#about-page {
 div#About > ul > li {
   padding: 10px;
   margin: auto;
+  text-align: center;
 }
 
 img.service-img {
