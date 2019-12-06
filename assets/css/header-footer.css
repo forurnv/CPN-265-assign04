@@ -255,7 +255,7 @@ transform: none;
 /* make footer */
 
 #footer {display: flex;
-  background: #103112;
+  background: #222522;
   justify-content: space-around;
   align-items: center;
   height: 100px;
@@ -263,17 +263,23 @@ transform: none;
 
 }
 
- .footer {
-   color: #c5b358;
+ .footerlogo {
+  height: 50px;
+
+ }
+
+a#SM {
+   color: wheat;
  }
 
  #footerimg {
-  height: 5vw;
+  height: 2vw;
 }
 
 #contact-info {
   font-size: large;
   width: 16ch;
+  text-align: center;
  
 }
 

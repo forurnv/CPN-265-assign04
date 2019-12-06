@@ -213,11 +213,11 @@ ul.Detail {
   font-size: 100px;
   text-align: center;
 
-  -webkit-animation: fadein 16.1s; /* Safari, Chrome and Opera > 12.1 */
-     -moz-animation: fadein 16.1s; /* Firefox < 16 */
-      -ms-animation: fadein 16.1s; /* Internet Explorer */
-       -o-animation: fadein 16.1s; /* Opera < 12.1 */
-          animation: fadein 16.1s;
+  -webkit-animation: fadein 16.1s infinite; /* Safari, Chrome and Opera > 12.1 */
+     -moz-animation: fadein 16.1s infinite; /* Firefox < 16 */
+      -ms-animation: fadein 16.1s infinite; /* Internet Explorer */
+       -o-animation: fadein 16.1s infinite; /* Opera < 12.1 */
+          animation: fadein 16.1s infinite;
 
     
   
