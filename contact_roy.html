@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="Roy's personal portfolio site">
+  <meta name="keywords" content="web design, personal, Calgary, agency, web agency">
+  <meta name="author" content="Roy Aggarwal"> -->
+  <link rel="stylesheet" href="./assets/css/styles_roy.css">
+  <link rel="stylesheet" href="./assets/css/header-footer.css">
+  <script src="https://kit.fontawesome.com/16ea1f2f8f.js"></script>
+
+  <!-- <link rel="icon" href="./images/favicon.ico" type="image/x-icon" /> -->
+  <!--For Google Fonts -->
+  <!-- <link href="https://fonts.googleapis.com/css?family=Prata&display=swap" rel="stylesheet"> -->
+  <!--For Font Awesome icons-->
+  <!-- <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet"
+    integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous"> -->
+  <title>BB | Contact</title>
+</head>     
+
+<body>
+  <!-- Only one unique style for this page, thus using an inline style -->
+  <style>
+    body {background: linear-gradient(rgb(0, 0, 0), rgb(109, 2, 82));}
+  </style>
+  <header class="header">
+    <!-- <img class="logo" src="./images/logo.png" alt="Company Logo"> -->
+    <!-- <nav>
+      <ul class="main-nav">
+        <li><a href="index_roy.html">Home</a></li>
+        <li><a href="contact_roy.html">Contact</a></li>
+      </ul>
+    </nav> -->
+    <nav>  
+      <ul id="head" class="flex">
+        <li><a href="index.html">
+          <img id="logo" src="./assets/images/78341751_1014684978885709_576231572848508928_n.png" alt="Binary Beasts"></a> 
+        </li>
+      <div id="navFlex">
+        <li><a class="head" href="#">About</a></li>
+        <li><a class="head" href="services.html">Services</a></li>
+        <li><a class="head" href="#">Samples</a></li>
+        <li><a class="head" href="contact_roy.html">Contact</a></li>
+      </ul>
+    </div>
+    </nav>
+      <!-- hidden hamburger menu -->
+  <nav id="mobile">
+        <div id="menuToggle">
+          <input type="checkbox"/>
+          <span></span>
+          <span></span>
+          <span></span>
+          <ul id="menu">
+              <!-- <img class="logo" src="./assets/images/78341751_1014684978885709_576231572848508928_n.png" alt="Binary Beasts"></a>  -->
+            </li>
+            <li><a class="head" href="#">About</a></li>
+            <li><a class="head" href="services.html">Services</a></li>
+            <li><a class="head" href="#">Samples</a></li>
+            <li><a class="head" href="contact_roy.html">Contact</a></li>
+          </ul>
+        </div>
+    </nav>
+    <div class="space"></div>
+
+  </header>
+
+  <main>
+
+    <div class="container">
+      <form name="contact_form" id="contact" action="thanks_roy.html" method="POST" data-netlify="true">
+    <!-- Accessible Form -->
+        <legend>Request a Quote</legend>
+        <fieldset>
+          <br>
+            <label for="form_name">Name:</label>
+          <input name="name" placeholder="First & Last Name" type="text" tabindex="1" required autofocus>
+        </fieldset>
+        <fieldset>
+            <label for="form_email">Email:</label>
+          <input name="email" placeholder="Valid emails contain @ and ." type="email" tabindex="2" required>
+        </fieldset>
+        <fieldset>
+            <label for="form_message">Message:</label>
+          <textarea name="message" placeholder="Your message here" tabindex="5" required></textarea>
+        </fieldset>
+        <fieldset>
+          <!-- Spambot filter -->
+          <div class="field">
+            <div data-netlify-recaptcha="true"></div>
+          </div>
+          <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+        </fieldset>
+      </form>
+    </div>
+  <!-- Interactive Google Map-->
+  <figure>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2507.3821224943686!2d-114.09221938395417!3d51.06449577956476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53716f927202bf3f%3A0x16877e49fcc8dbcb!2sStan%20Grad%20Centre!5e0!3m2!1sen!2sca!4v1575505616719!5m2!1sen!2sca" width="400" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+    </figure>
+  </main>
+   <footer>
+    <div style="font-size: 2vw">
+      <ul id="footer">
+        <li><a href="index.html">
+          <img class="footerlogo" src="./assets/images/78341751_1014684978885709_576231572848508928_n.png" alt="Binary Beasts"></a> 
+        </li>
+          <li><a class="footer" href="#"><i class="fab fa-twitter"></i></a></li>  
+          <li><a class="footer" href="#"><i class="fab fa-facebook-square"></i></a></li>  
+          
+          <li><ul id="contact-info">
+            <li>test</li>
+            <li>test</li>
+            <li>test</li>
+            
+            
+          </ul></li>
+      </ul>
+      </div>
+  </footer>
+ </body>
+
+</html>
